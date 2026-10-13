@@ -1,0 +1,17 @@
+test_both_sides_all_targets_restart_and_delivery (test_extended.IntegrationTests.test_both_sides_all_targets_restart_and_delivery) ... ok
+test_calendar_holiday_and_half_day (test_extended.IntegrationTests.test_calendar_holiday_and_half_day) ... ok
+test_duplicate_aggregate_and_capacity (test_extended.IntegrationTests.test_duplicate_aggregate_and_capacity) ... ok
+test_flat_accumulation_before_momentum (test_extended.IntegrationTests.test_flat_accumulation_before_momentum) ... ok
+test_health_liveness_not_readiness (test_extended.IntegrationTests.test_health_liveness_not_readiness) ... ok
+test_zero_size_stale_nan_and_ordering (test_extended.IntegrationTests.test_zero_size_stale_nan_and_ordering) ... ok
+test_websocket_auth_subscription_and_quote_pipeline (test_extended.TransportTests.test_websocket_auth_subscription_and_quote_pipeline) ... Convexity100 REAL-TIME PAPER SIGNAL | O:SPY261016P00600000 | SPY PUT 600 expires 2026-10-16 | Quote 2026-10-13 12:19:13 ET: bid $1.15 / ask $1.25; spread 8.3% | Quote-based hypothetical entry ask $1.25 | Exit BID targets: +100% $2.50 | +200% $3.75 | +300% $5.00 | Volume burst 5.0x; option momentum +18.0%; priority 91/99 (NOT probability) | Paper stop BID $0.62; maximum hold until 2026-10-14 16:00 ET. | Signal is experimental, not a trade instruction. | Cost-adjusted BID barriers: +100% $2.5495; +200% $3.8160; +300% $5.0825. Sized quotes are observations, not confirmed fills.
+ok
+test_alert_and_executable_target (test_scanner.ScannerTests.test_alert_and_executable_target) ... ok
+test_contract (test_scanner.ScannerTests.test_contract) ... ok
+test_no_repeated_alert (test_scanner.ScannerTests.test_no_repeated_alert) ... ok
+test_reject_wide_spread (test_scanner.ScannerTests.test_reject_wide_spread) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 2.491s
+
+OK
